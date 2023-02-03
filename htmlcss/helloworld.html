@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>
+Hello World
+</title>
+<style>
+*{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(102, 101, 101);
+   
+}
+
+#img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+.div-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.div-form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    
+}
+.childdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 40%;
+    margin-left: 32%;
+}
+.details{
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.detailsul{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    border: 2px solid black;
+}
+label{
+    margin-right: 1%;
+    width: 22%;
+}
+#submitbtn{
+    background-color: rgb(195, 43, 226);
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 25%;
+    color: white;
+    
+}
+#cancelbtn{
+    margin-left: 5%;
+    background-color: rgb(102, 101, 101);
+    border-radius: 10px;
+    border: 1px solid gray;
+    color: white;
+    width: 25%;
+}
+.titlep{
+    font-size: xx-large;
+    
+    
+}
+.titlep1{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    
+}
+#check{
+    margin-right:2%;
+}
+inline{
+    color: rgb(195, 43, 226);
+    font-size: xx-large;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.chlabel{
+    margin-right: 1%;
+    width: max-content;
+}
+</style>
+</head>
+<body>
+</title>
+<div class="div-container">
+    <p class="titlep">Fill this Form to Get Started with <inline>O</inline>doo</p>
+</div>
+<form class="div-form">
+    <div class="childdiv">
+    <label for="f1">Name : </label>
+    <input type="text" name="f1" id="f1">
+    </div>
+    <div class="childdiv">
+    <label for="f2">Mobile : </label>
+    <input type="text" name="f2" id="f2"/>
+    </div>
+    <div class="childdiv">
+    <label for="f3">E-mail : </label>
+    <input type="email" name="f3" id="f3"/>
+    </div>
+    <div class="childdiv">
+        <p>Interested in : </p>
+    </div>
+    <div class="childdiv">
+    <label for="check" class="chlabel">Community</label> 
+    <input type="checkbox" name="ch" id="check"/>
+    <label for="check2" class="chlabel">Enterprise</label>
+    <input type="checkbox" name="ch" id="check2"/>
+    </div>
+    <div class="childdiv">
+    <button type="submit" id="submitbtn"><a href="https://www.odoo.com" target="_blank">Submit</a></button>
+    <button type="cancel" id="cancelbtn"><a href="newfiletest.html">Cancel</a></button>
+    </div>    
+</form>
+</body>
+</html>
